@@ -60,7 +60,7 @@ O candidato é considerado **APTO** se atender a todos os critérios:
 ## ⚙️ Como Executar
 
 ```bash
-git clone https://github.com/yanduart/TRIAGEM_DE_ASTRONAUTAS_MISSÃO_MARTE_2030_FRONTEND.git
+https://github.com/yanduart/TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_FRONTEND
 ```
 
 Abra o arquivo `index.html` no navegador.
