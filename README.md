@@ -2,54 +2,44 @@
 
 Aplicação web desenvolvida para simular um sistema de triagem de candidatos a astronautas, com base em critérios técnicos e psicológicos.
 
-O projeto demonstra habilidades em **JavaScript, manipulação de dados e interface dinâmica**, organizando candidatos e exibindo resultados em tempo real.
-
 ---
 
 ## 🎯 Funcionalidades
 
-* Cadastro de novos candidatos
-* Avaliação automática (Apto / Inapto)
-* Listagem dinâmica de:
-
-  * ✅ Candidatos Aptos
-  * ❌ Candidatos Inaptos
+* Cadastro de candidatos
+* Avaliação automática (**Apto / Inapto**)
+* Listagem dinâmica de candidatos
 * Filtros inteligentes:
 
-  * 👴 Idade acima de 30 anos
-  * ✈️ Mais de 2000 horas de voo
-  * 🧠 Nota psicológica acima de 8
-* 📊 Estatísticas em tempo real:
-
-  * Total de candidatos
-  * Taxa de aprovação
-  * Idade média
-  * Média de horas de voo
+  * 👴 Mais de 30 anos
+  * ✈️ Mais de 2000h de voo
+  * 🧠 Nota psicológica > 8
+* 📊 Estatísticas em tempo real
 
 ---
 
 ## 🧠 Regras de Negócio
 
-O candidato é considerado **APTO** se atender a todos os critérios:
+Para ser aprovado, o candidato deve:
 
-* Idade entre **25 e 45 anos**
-* Mínimo de **1000 horas de voo**
-* Nota psicológica mínima de **8**
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* **HTML5** → Estrutura da aplicação
-* **CSS3** → Estilização e responsividade
-* **JavaScript (Vanilla)** → Lógica, filtros e manipulação do DOM
+* Ter entre **25 e 45 anos**
+* Possuir no mínimo **1000 horas de voo**
+* Ter nota psicológica mínima de **8**
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🛠️ Tecnologias
+
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## 📂 Estrutura
 
 ```bash
-📁 triagem-astronautas
+📁 TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_FRONTEND
 ├── index.html
 ├── style.css
 └── script.js
@@ -59,57 +49,42 @@ O candidato é considerado **APTO** se atender a todos os critérios:
 
 ## ⚙️ Como Executar
 
+1. Clone o repositório:
+
 ```bash
-https://github.com/yanduart/TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_FRONTEND
+git clone https://github.com/yanduart/TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_FRONTEND.git
 ```
 
-Abra o arquivo `index.html` no navegador.
+2. Abra a pasta do projeto
+
+3. Execute o arquivo `index.html` no navegador
 
 ---
 
 ## 💡 Conceitos Aplicados
 
 * Manipulação de arrays (`filter`, `forEach`)
-* Estruturas condicionais
-* Atualização dinâmica do DOM
-* Organização de dados em múltiplas categorias
-* Cálculo de estatísticas em tempo real
-* Responsividade com CSS Grid
-
----
-
-## 🎨 Interface
-
-* Layout moderno e centralizado
-* Sistema de colunas dinâmicas
-* Feedback visual (aprovado/reprovado)
-* Interface responsiva para diferentes telas
-
----
-
-## 🔮 Melhorias Futuras
-
-* Persistência de dados (LocalStorage ou banco de dados)
-* Edição e remoção de candidatos
-* Validação em tempo real
-* Dashboard com gráficos
-* Integração com API
+* Manipulação do DOM
+* Validação de dados
+* Organização em múltiplas categorias
+* Cálculo de estatísticas
 
 ---
 
 ## 👨‍💻 Autor
 
-**Yan Duarte Marques**
+Yan Duarte Marques
 🔗 https://github.com/yanduart
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 Sobre
 
-Este projeto foi desenvolvido com foco em prática de lógica de programação e construção de interfaces interativas, simulando um cenário real de análise de candidatos.
+Projeto desenvolvido com foco em prática de lógica, organização de dados e criação de interfaces interativas.
 
 ---
 
 ## 📄 Licença
 
-Projeto livre para uso e fins educacionais.
+Uso livre para fins educacionais.
+
