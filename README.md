@@ -50,7 +50,7 @@ Para ser aprovado, o candidato deve:
 ## ⚙️ Como Executar
 
 1. Clone o repositório:
-
+   
 ```bash
 git clone https://github.com/yanduart/TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_FRONTEND.git
 ```
