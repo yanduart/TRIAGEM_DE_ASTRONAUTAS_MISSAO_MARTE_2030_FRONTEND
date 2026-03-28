@@ -12,23 +12,23 @@ Aplicação web desenvolvida para simular um sistema de triagem de candidatos a 
 * Filtros inteligentes:
 
   * 👴 Mais de 30 anos
-  * ✈️ Mais de 2000h de voo
-  * 🧠 Nota psicológica > 8
+  * ✈️ Mais de 2000 horas de voo
+  * 🧠 Nota psicológica acima de 8
 * 📊 Estatísticas em tempo real
 
 ---
 
 ## 🧠 Regras de Negócio
 
-Para ser aprovado, o candidato deve:
+O candidato será considerado **APTO** se atender a todos os critérios:
 
-* Ter entre **25 e 45 anos**
-* Possuir no mínimo **1000 horas de voo**
-* Ter nota psicológica mínima de **8**
+* Idade entre **25 e 45 anos**
+* Mínimo de **1000 horas de voo**
+* Nota psicológica mínima de **8**
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias Utilizadas
 
 * HTML5
 * CSS3
@@ -36,10 +36,11 @@ Para ser aprovado, o candidato deve:
 
 ---
 
-## 📂 Estrutura
+## 📂 Estrutura do Projeto
 
-```bash
-📁 TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_FRONTEND
+```
+TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_FRONTEND
+│
 ├── index.html
 ├── style.css
 └── script.js
@@ -50,8 +51,10 @@ Para ser aprovado, o candidato deve:
 ## ⚙️ Como Executar
 
 1. Clone o repositório:
+
 ```bash
 git clone https://github.com/yanduart/TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_FRONTEND.git
+```
 
 2. Abra a pasta do projeto
 
@@ -64,25 +67,38 @@ git clone https://github.com/yanduart/TRIAGEM_DE_ASTRONAUTAS_MISSAO_MARTE_2030_F
 * Manipulação de arrays (`filter`, `forEach`)
 * Manipulação do DOM
 * Validação de dados
-* Organização em múltiplas categorias
-* Cálculo de estatísticas
+* Organização de dados em múltiplas categorias
+* Cálculo de estatísticas em tempo real
+
+---
+
+## 🎨 Interface
+
+* Layout moderno e centralizado
+* Sistema de colunas dinâmicas
+* Feedback visual (aprovado/reprovado)
+* Responsividade para diferentes telas
+
+---
+
+## 🔮 Melhorias Futuras
+
+* Persistência de dados (LocalStorage ou banco de dados)
+* Edição e remoção de candidatos
+* Dashboard com gráficos
+* Validação em tempo real
 
 ---
 
 ## 👨‍💻 Autor
 
 Yan Duarte Marques
-🔗 https://github.com/yanduart
-
----
-
-## 📌 Sobre
-
-Projeto desenvolvido com foco em prática de lógica, organização de dados e criação de interfaces interativas.
+https://github.com/yanduart
 
 ---
 
 ## 📄 Licença
 
-Uso livre para fins educacionais.
+Projeto livre para fins educacionais.
+
 
